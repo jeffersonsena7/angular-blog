@@ -1,8 +1,12 @@
+@media screen  and (min-width: 360px) and (max-width: 520px) {
+
+
+
 .container_articles {
   margin-top: 30px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -19,3 +23,4 @@
 
 }
 
+}

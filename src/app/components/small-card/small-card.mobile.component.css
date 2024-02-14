@@ -1,23 +1,28 @@
+@media screen  and (min-width: 360px) and (max-width: 520px) {
+
+
 .container_small_card {
-  width: 700px;
+  width: 390px;
   margin-bottom: 15px;
+
 }
 
 .container_small_card_content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 
 .small_card_photo > img{
-  width: 200px;
+  width: 230px;
   min-width: 200px;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .small_card_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .small_card_title {
@@ -32,9 +37,12 @@
 
 .small_card_title :hover {
   color: #00d9ff;
-  
+   
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff;
 }
+
 .container_small_card_separator {
   margin-top: 50px;
+}
+
 }
